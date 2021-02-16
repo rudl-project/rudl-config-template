@@ -1,0 +1,37 @@
+{
+  "principal": {
+    "rpid": "leuffen",
+    "repo": "git@github.com/dermatthes/demo-config:master",
+    "rpid_url": "https://x5.rudl.infracamp.org/leuffen/",
+    "users": [],
+    "access_tokens": [],
+    "notify": [
+      "email@abc.de",
+      "email2@cde.de"
+    ]
+  },
+  "provision": {
+    "ssh_keys": [
+      {
+        "name": "",
+        "public_key": "",
+        "private_key_enc": ""
+      }
+    ],
+    "zones": [
+      {
+        "name": "infracamp-backend",
+        "file": "infracamp-backend/zone-infracamp-backend.json"
+      }
+    ]
+  },
+  "vault": {
+    "keyset": [
+      {
+        "name": "org-infracamp-principal-x5",
+        "public_key": "xxx",
+        "private_key_enc": "wlkjsdleijlksjsdk"
+      }
+    ]
+  }
+}

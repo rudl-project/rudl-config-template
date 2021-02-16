@@ -1,0 +1,40 @@
+{
+  "zone": {
+    "zone_secret_enc": "02dlakjfowihsflaksadj",
+    "ssh_public_key": "",
+    "ssh_private_key_enc": ""
+  },
+  "hooks": [
+    {
+      "on": {
+        "change": "*"
+      },
+      "name": "stack_deploy",
+      "on_tags": ["leader"],
+      "cmd": [
+        {"action": "copy_to", "src": "*.yml", "dest": "/tmp/stack"},
+        "docker stack deploy"
+      ]
+    }
+  ],
+  "files": [
+    "certs/:rw"
+  ],
+  "server_templates": [
+    {
+      
+    }
+  ],
+  "servers": [
+    {
+      "name": "32i.stratoserver.net",
+      "ipv4": "",
+      "ipv6": "",
+      "public_key": "",
+      "maintenance": false,
+      "provision_cmd": [
+        {"action": "nfra/provision"}
+      ]
+    }
+  ]
+}

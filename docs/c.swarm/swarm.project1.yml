@@ -1,0 +1,7 @@
+class: Rudl\Type\Swarm:1
+deploy_key: "$5$zwlskdj$lskdjldk"
+deploy_on:
+  - object: vm.server1
+    role: leader
+  - object: vm.server2
+    role: worker

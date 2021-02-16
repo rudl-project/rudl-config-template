@@ -1,0 +1,15 @@
+{
+  "public": {
+    "hostname": "akdjd",
+    "ext_ipv4": "",
+    "ext_ipv6": "",
+    "registered_at": "2020-01-24T12:45:24GMT"
+  },
+  "protected": {
+
+  },
+  "private": {
+    "access_key": "lakdjlaskdjlakdj",
+    "ssh_priv_key_enc": "rudl-vault encrypted key to access the server"
+  }
+}

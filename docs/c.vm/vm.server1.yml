@@ -1,0 +1,11 @@
+class: Rudl\Type\VM:1
+deploy_key: "$5$zwlskdj$lskdjldk"
+## The state file will be available to all members of the group
+groups:
+  - swarm1
+presets:
+  -
+active: true
+
+allow_subclass:
+  - swarm

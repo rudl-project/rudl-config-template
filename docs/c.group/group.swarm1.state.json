@@ -1,0 +1,7 @@
+{
+  "shared": {
+    "swarm.worker_join_token": "",
+    "swarm.leader_join_token": ""
+  }
+
+}
