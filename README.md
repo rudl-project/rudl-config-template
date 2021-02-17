@@ -1,6 +1,9 @@
 # rudl-config-template
 Configuation template repository
 
+Access Key key_id: test1: testtest
+
+
 ## General
 
 All state and service files are kept in the master branch. It can be protected.
