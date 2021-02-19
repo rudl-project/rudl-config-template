@@ -7,6 +7,6 @@ vhosts:
     locations:
       - location: "/"
         proxy_pass:
-          - page_service1
+          - http://page_service1
         options:
 
