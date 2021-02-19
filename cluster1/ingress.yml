@@ -1,0 +1,12 @@
+vhosts:
+  - server_names:
+      - page1.de
+      - www.page1.de
+    ssl_cert: page1.pem
+    enforce_ssl: true
+    locations:
+      - location: "/"
+        proxy_pass:
+          - page_service1
+        options:
+

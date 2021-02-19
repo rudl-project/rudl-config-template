@@ -8,11 +8,24 @@ systems:
     accessKeysHash:
     - "$6$dDJQR4gEoVEil$1Nwe94UNyabtHTt4uxrafohjazPH51/q3HP0iGjSqBROfZIZr2yDPUMCZRSzwu4RLig1E6qk4dIyaKXTOb/8X0"
       # Password: test
-
+  - name: ingress_nginx
+    accessKeysHash:
+      - "$6$dDJQR4gEoVEil$1Nwe94UNyabtHTt4uxrafohjazPH51/q3HP0iGjSqBROfZIZr2yDPUMCZRSzwu4RLig1E6qk4dIyaKXTOb/8X0"
 scopes:
   - name: certs
     allowRead:
       - cert_issuer
       - cert_reader
+      - ingress_nginx
     allowWrite:
       - cert_issuer
+  - name: ssl_certs
+    allowRead:
+      - cert_issuer
+      - ingress_nginx
+    allowWrite:
+      - cert_issuer
+
+  - name: cluster1
+    allowRead:
+      - ingress_nginx
