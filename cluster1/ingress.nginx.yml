@@ -6,7 +6,6 @@ vhosts:
     enforce_ssl: true
     locations:
       - location: "/"
-        proxy_pass:
-          - http://page_service1
+        proxy_pass: http://page_service1
         options:
 
