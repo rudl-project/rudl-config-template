@@ -2,15 +2,15 @@ version: 1
 clients:
   - name: cert_issuer
     accessKeysHash:
-      - "$6$dDJQR4gEoVEil$1Nwe94UNyabtHTt4uxrafohjazPH51/q3HP0iGjSqBROfZIZr2yDPUMCZRSzwu4RLig1E6qk4dIyaKXTOb/8X0"
-      # Password: test
+      - "$6$KWbvXekD0OVQri58$XOICOXrCCKzhkitxGR6voYUpFZxvNR8nKS1J0DFhQujhsj62Ov8rUHannKlWec4ncXPlfi6LlFSRoKt.dIMeO1"
+      # Password: testtest
   - name: cert_reader
     accessKeysHash:
-    - "$6$dDJQR4gEoVEil$1Nwe94UNyabtHTt4uxrafohjazPH51/q3HP0iGjSqBROfZIZr2yDPUMCZRSzwu4RLig1E6qk4dIyaKXTOb/8X0"
-      # Password: test
+    - "$6$KWbvXekD0OVQri58$XOICOXrCCKzhkitxGR6voYUpFZxvNR8nKS1J0DFhQujhsj62Ov8rUHannKlWec4ncXPlfi6LlFSRoKt.dIMeO1"
+      # Password: testtest
   - name: ingress_nginx
     accessKeysHash:
-      - "$6$dDJQR4gEoVEil$1Nwe94UNyabtHTt4uxrafohjazPH51/q3HP0iGjSqBROfZIZr2yDPUMCZRSzwu4RLig1E6qk4dIyaKXTOb/8X0"
+      - "$6$KWbvXekD0OVQri58$XOICOXrCCKzhkitxGR6voYUpFZxvNR8nKS1J0DFhQujhsj62Ov8rUHannKlWec4ncXPlfi6LlFSRoKt.dIMeO1"
 scopes:
   - name: certs
     allowRead:
