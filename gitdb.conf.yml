@@ -1,6 +1,6 @@
 version: 1
 clients:
-  - name: cert_issuer
+  - name: cert_issuer1
     accessKeysHash:
       - "$6$KWbvXekD0OVQri58$XOICOXrCCKzhkitxGR6voYUpFZxvNR8nKS1J0DFhQujhsj62Ov8rUHannKlWec4ncXPlfi6LlFSRoKt.dIMeO1"
       # Password: testtest
@@ -21,10 +21,10 @@ scopes:
       - cert_issuer
   - name: ssl_certs
     allowRead:
-      - cert_issuer
-      - ingress_nginx
+      - cert_issuer1
+      - ingress_nginx1
     allowWrite:
-      - cert_issuer
+      - cert_issuer1
 
   - name: cluster1
     allowRead:

@@ -1,0 +1,6 @@
+certs:
+  - name: demo.pem
+    common_names:
+      - demo.xy
+      - www.demo.xy
+    autoissue: true
