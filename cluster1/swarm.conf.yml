@@ -1,0 +1,3 @@
+stacks:
+  - name: test
+    compose_file: test.yml
