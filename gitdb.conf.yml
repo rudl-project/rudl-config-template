@@ -11,6 +11,10 @@ clients:
   - name: ingress_nginx
     accessKeysHash:
       - "$6$KWbvXekD0OVQri58$XOICOXrCCKzhkitxGR6voYUpFZxvNR8nKS1J0DFhQujhsj62Ov8rUHannKlWec4ncXPlfi6LlFSRoKt.dIMeO1"
+
+  - name: swarm1
+    accessKeysHash:
+      - "$6$KWbvXekD0OVQri58$XOICOXrCCKzhkitxGR6voYUpFZxvNR8nKS1J0DFhQujhsj62Ov8rUHannKlWec4ncXPlfi6LlFSRoKt.dIMeO1"
 scopes:
   - name: certs
     allowRead:
@@ -28,4 +32,4 @@ scopes:
 
   - name: cluster1
     allowRead:
-      - ingress_nginx
+      - swarm1
