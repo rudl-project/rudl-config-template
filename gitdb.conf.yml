@@ -25,7 +25,7 @@ scopes:
       - cert_reader
       - ingress_nginx
     allowWrite:
-      - cert_issuer
+      - cert_issuer1
   - name: ssl_certs
     allowRead:
       - cert_issuer1
