@@ -21,7 +21,7 @@ clients:
 scopes:
   - name: certs
     allowRead:
-      - cert_issuer
+      - cert_issuer1
       - cert_reader
       - ingress_nginx
     allowWrite:
