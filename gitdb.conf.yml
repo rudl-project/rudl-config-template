@@ -15,6 +15,9 @@ clients:
   - name: swarm1
     accessKeysHash:
       - "$6$KWbvXekD0OVQri58$XOICOXrCCKzhkitxGR6voYUpFZxvNR8nKS1J0DFhQujhsj62Ov8rUHannKlWec4ncXPlfi6LlFSRoKt.dIMeO1"
+  - name: dns1
+    accessKeysHash:
+      - "$6$KWbvXekD0OVQri58$XOICOXrCCKzhkitxGR6voYUpFZxvNR8nKS1J0DFhQujhsj62Ov8rUHannKlWec4ncXPlfi6LlFSRoKt.dIMeO1"
 scopes:
   - name: certs
     allowRead:
@@ -34,6 +37,9 @@ scopes:
     allowRead:
       - swarm1
 
+  - name: dns1
+    allowRead:
+      - dns1
 repo_hook_keys:
   - "$6$KWbvXekD0OVQri58$XOICOXrCCKzhkitxGR6voYUpFZxvNR8nKS1J0DFhQujhsj62Ov8rUHannKlWec4ncXPlfi6LlFSRoKt.dIMeO1"
 
