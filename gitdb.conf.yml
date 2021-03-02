@@ -37,7 +37,7 @@ scopes:
     allowRead:
       - swarm1
 
-  - name: dns1
+  - name: dns
     allowRead:
       - dns1
 repo_hook_keys:
